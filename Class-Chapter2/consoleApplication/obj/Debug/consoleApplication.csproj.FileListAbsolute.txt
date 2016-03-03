@@ -1,0 +1,5 @@
+C:\Users\Nate\Documents\CS3280\Class-Chapter2\consoleApplication\bin\Debug\consoleApplication.exe.config
+C:\Users\Nate\Documents\CS3280\Class-Chapter2\consoleApplication\bin\Debug\consoleApplication.exe
+C:\Users\Nate\Documents\CS3280\Class-Chapter2\consoleApplication\bin\Debug\consoleApplication.pdb
+C:\Users\Nate\Documents\CS3280\Class-Chapter2\consoleApplication\obj\Debug\consoleApplication.exe
+C:\Users\Nate\Documents\CS3280\Class-Chapter2\consoleApplication\obj\Debug\consoleApplication.pdb
