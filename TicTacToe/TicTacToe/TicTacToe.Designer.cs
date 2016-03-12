@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btn9 = new System.Windows.Forms.Button();
-            this.btn8 = new System.Windows.Forms.Button();
-            this.btn7 = new System.Windows.Forms.Button();
-            this.btn6 = new System.Windows.Forms.Button();
-            this.btn5 = new System.Windows.Forms.Button();
-            this.btn4 = new System.Windows.Forms.Button();
-            this.btn3 = new System.Windows.Forms.Button();
-            this.btn2 = new System.Windows.Forms.Button();
-            this.btn1 = new System.Windows.Forms.Button();
+            this.btn22 = new System.Windows.Forms.Button();
+            this.btn21 = new System.Windows.Forms.Button();
+            this.btn20 = new System.Windows.Forms.Button();
+            this.btn12 = new System.Windows.Forms.Button();
+            this.btn11 = new System.Windows.Forms.Button();
+            this.btn10 = new System.Windows.Forms.Button();
+            this.btn02 = new System.Windows.Forms.Button();
+            this.btn01 = new System.Windows.Forms.Button();
+            this.btn00 = new System.Windows.Forms.Button();
             this.gbGameStats = new System.Windows.Forms.GroupBox();
             this.lblTiesScore = new System.Windows.Forms.Label();
-            this.lblPlayer2Score = new System.Windows.Forms.Label();
-            this.lblPlayer1Score = new System.Windows.Forms.Label();
+            this.lblPlayerOScore = new System.Windows.Forms.Label();
+            this.lblPlayerXScore = new System.Windows.Forms.Label();
             this.lblTies = new System.Windows.Forms.Label();
-            this.lblPlayer2 = new System.Windows.Forms.Label();
-            this.lblPlayer1 = new System.Windows.Forms.Label();
+            this.lblPlayerO = new System.Windows.Forms.Label();
+            this.lblPlayerX = new System.Windows.Forms.Label();
             this.gbStatus = new System.Windows.Forms.GroupBox();
             this.lblGameStatus = new System.Windows.Forms.Label();
             this.btnStartGame = new System.Windows.Forms.Button();
@@ -56,120 +56,120 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Controls.Add(this.btn9);
-            this.panel1.Controls.Add(this.btn8);
-            this.panel1.Controls.Add(this.btn7);
-            this.panel1.Controls.Add(this.btn6);
-            this.panel1.Controls.Add(this.btn5);
-            this.panel1.Controls.Add(this.btn4);
-            this.panel1.Controls.Add(this.btn3);
-            this.panel1.Controls.Add(this.btn2);
-            this.panel1.Controls.Add(this.btn1);
+            this.panel1.Controls.Add(this.btn22);
+            this.panel1.Controls.Add(this.btn21);
+            this.panel1.Controls.Add(this.btn20);
+            this.panel1.Controls.Add(this.btn12);
+            this.panel1.Controls.Add(this.btn11);
+            this.panel1.Controls.Add(this.btn10);
+            this.panel1.Controls.Add(this.btn02);
+            this.panel1.Controls.Add(this.btn01);
+            this.panel1.Controls.Add(this.btn00);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(277, 254);
             this.panel1.TabIndex = 0;
             // 
-            // btn9
+            // btn22
             // 
-            this.btn9.Enabled = false;
-            this.btn9.Location = new System.Drawing.Point(188, 172);
-            this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(88, 80);
-            this.btn9.TabIndex = 8;
-            this.btn9.UseVisualStyleBackColor = true;
-            this.btn9.Click += new System.EventHandler(this.btn_Click);
+            this.btn22.Enabled = false;
+            this.btn22.Location = new System.Drawing.Point(188, 172);
+            this.btn22.Name = "btn22";
+            this.btn22.Size = new System.Drawing.Size(88, 80);
+            this.btn22.TabIndex = 8;
+            this.btn22.UseVisualStyleBackColor = true;
+            this.btn22.Click += new System.EventHandler(this.btn_Click);
             // 
-            // btn8
+            // btn21
             // 
-            this.btn8.Enabled = false;
-            this.btn8.Location = new System.Drawing.Point(94, 172);
-            this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(88, 80);
-            this.btn8.TabIndex = 7;
-            this.btn8.UseVisualStyleBackColor = true;
-            this.btn8.Click += new System.EventHandler(this.btn_Click);
+            this.btn21.Enabled = false;
+            this.btn21.Location = new System.Drawing.Point(94, 172);
+            this.btn21.Name = "btn21";
+            this.btn21.Size = new System.Drawing.Size(88, 80);
+            this.btn21.TabIndex = 7;
+            this.btn21.UseVisualStyleBackColor = true;
+            this.btn21.Click += new System.EventHandler(this.btn_Click);
             // 
-            // btn7
+            // btn20
             // 
-            this.btn7.Enabled = false;
-            this.btn7.Location = new System.Drawing.Point(0, 172);
-            this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(88, 80);
-            this.btn7.TabIndex = 6;
-            this.btn7.UseVisualStyleBackColor = true;
-            this.btn7.Click += new System.EventHandler(this.btn_Click);
+            this.btn20.Enabled = false;
+            this.btn20.Location = new System.Drawing.Point(0, 172);
+            this.btn20.Name = "btn20";
+            this.btn20.Size = new System.Drawing.Size(88, 80);
+            this.btn20.TabIndex = 6;
+            this.btn20.UseVisualStyleBackColor = true;
+            this.btn20.Click += new System.EventHandler(this.btn_Click);
             // 
-            // btn6
+            // btn12
             // 
-            this.btn6.Enabled = false;
-            this.btn6.Location = new System.Drawing.Point(188, 86);
-            this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(88, 80);
-            this.btn6.TabIndex = 5;
-            this.btn6.UseVisualStyleBackColor = true;
-            this.btn6.Click += new System.EventHandler(this.btn_Click);
+            this.btn12.Enabled = false;
+            this.btn12.Location = new System.Drawing.Point(189, 86);
+            this.btn12.Name = "btn12";
+            this.btn12.Size = new System.Drawing.Size(88, 80);
+            this.btn12.TabIndex = 5;
+            this.btn12.UseVisualStyleBackColor = true;
+            this.btn12.Click += new System.EventHandler(this.btn_Click);
             // 
-            // btn5
+            // btn11
             // 
-            this.btn5.Enabled = false;
-            this.btn5.Location = new System.Drawing.Point(94, 86);
-            this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(88, 80);
-            this.btn5.TabIndex = 4;
-            this.btn5.UseVisualStyleBackColor = true;
-            this.btn5.Click += new System.EventHandler(this.btn_Click);
+            this.btn11.Enabled = false;
+            this.btn11.Location = new System.Drawing.Point(94, 86);
+            this.btn11.Name = "btn11";
+            this.btn11.Size = new System.Drawing.Size(88, 80);
+            this.btn11.TabIndex = 4;
+            this.btn11.UseVisualStyleBackColor = true;
+            this.btn11.Click += new System.EventHandler(this.btn_Click);
             // 
-            // btn4
+            // btn10
             // 
-            this.btn4.Enabled = false;
-            this.btn4.Location = new System.Drawing.Point(0, 86);
-            this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(88, 80);
-            this.btn4.TabIndex = 3;
-            this.btn4.UseVisualStyleBackColor = true;
-            this.btn4.Click += new System.EventHandler(this.btn_Click);
+            this.btn10.Enabled = false;
+            this.btn10.Location = new System.Drawing.Point(0, 86);
+            this.btn10.Name = "btn10";
+            this.btn10.Size = new System.Drawing.Size(88, 80);
+            this.btn10.TabIndex = 3;
+            this.btn10.UseVisualStyleBackColor = true;
+            this.btn10.Click += new System.EventHandler(this.btn_Click);
             // 
-            // btn3
+            // btn02
             // 
-            this.btn3.Enabled = false;
-            this.btn3.Location = new System.Drawing.Point(188, 0);
-            this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(88, 80);
-            this.btn3.TabIndex = 2;
-            this.btn3.UseVisualStyleBackColor = true;
-            this.btn3.Click += new System.EventHandler(this.btn_Click);
+            this.btn02.Enabled = false;
+            this.btn02.Location = new System.Drawing.Point(188, 0);
+            this.btn02.Name = "btn02";
+            this.btn02.Size = new System.Drawing.Size(88, 80);
+            this.btn02.TabIndex = 2;
+            this.btn02.UseVisualStyleBackColor = true;
+            this.btn02.Click += new System.EventHandler(this.btn_Click);
             // 
-            // btn2
+            // btn01
             // 
-            this.btn2.Enabled = false;
-            this.btn2.Location = new System.Drawing.Point(94, 0);
-            this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(88, 80);
-            this.btn2.TabIndex = 1;
-            this.btn2.UseVisualStyleBackColor = true;
-            this.btn2.Click += new System.EventHandler(this.btn_Click);
+            this.btn01.Enabled = false;
+            this.btn01.Location = new System.Drawing.Point(94, 0);
+            this.btn01.Name = "btn01";
+            this.btn01.Size = new System.Drawing.Size(88, 80);
+            this.btn01.TabIndex = 1;
+            this.btn01.UseVisualStyleBackColor = true;
+            this.btn01.Click += new System.EventHandler(this.btn_Click);
             // 
-            // btn1
+            // btn00
             // 
-            this.btn1.BackColor = System.Drawing.Color.Gainsboro;
-            this.btn1.Enabled = false;
-            this.btn1.Location = new System.Drawing.Point(0, 0);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(88, 80);
-            this.btn1.TabIndex = 0;
-            this.btn1.UseVisualStyleBackColor = false;
-            this.btn1.Click += new System.EventHandler(this.btn_Click);
+            this.btn00.BackColor = System.Drawing.Color.Gainsboro;
+            this.btn00.Enabled = false;
+            this.btn00.Location = new System.Drawing.Point(0, 0);
+            this.btn00.Name = "btn00";
+            this.btn00.Size = new System.Drawing.Size(88, 80);
+            this.btn00.TabIndex = 0;
+            this.btn00.UseVisualStyleBackColor = false;
+            this.btn00.Click += new System.EventHandler(this.btn_Click);
             // 
             // gbGameStats
             // 
             this.gbGameStats.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.gbGameStats.Controls.Add(this.lblTiesScore);
-            this.gbGameStats.Controls.Add(this.lblPlayer2Score);
-            this.gbGameStats.Controls.Add(this.lblPlayer1Score);
+            this.gbGameStats.Controls.Add(this.lblPlayerOScore);
+            this.gbGameStats.Controls.Add(this.lblPlayerXScore);
             this.gbGameStats.Controls.Add(this.lblTies);
-            this.gbGameStats.Controls.Add(this.lblPlayer2);
-            this.gbGameStats.Controls.Add(this.lblPlayer1);
+            this.gbGameStats.Controls.Add(this.lblPlayerO);
+            this.gbGameStats.Controls.Add(this.lblPlayerX);
             this.gbGameStats.Location = new System.Drawing.Point(323, 57);
             this.gbGameStats.Name = "gbGameStats";
             this.gbGameStats.Size = new System.Drawing.Size(200, 100);
@@ -186,23 +186,23 @@
             this.lblTiesScore.TabIndex = 5;
             this.lblTiesScore.Text = "0";
             // 
-            // lblPlayer2Score
+            // lblPlayerOScore
             // 
-            this.lblPlayer2Score.AutoSize = true;
-            this.lblPlayer2Score.Location = new System.Drawing.Point(111, 46);
-            this.lblPlayer2Score.Name = "lblPlayer2Score";
-            this.lblPlayer2Score.Size = new System.Drawing.Size(13, 13);
-            this.lblPlayer2Score.TabIndex = 4;
-            this.lblPlayer2Score.Text = "0";
+            this.lblPlayerOScore.AutoSize = true;
+            this.lblPlayerOScore.Location = new System.Drawing.Point(111, 46);
+            this.lblPlayerOScore.Name = "lblPlayerOScore";
+            this.lblPlayerOScore.Size = new System.Drawing.Size(13, 13);
+            this.lblPlayerOScore.TabIndex = 4;
+            this.lblPlayerOScore.Text = "0";
             // 
-            // lblPlayer1Score
+            // lblPlayerXScore
             // 
-            this.lblPlayer1Score.AutoSize = true;
-            this.lblPlayer1Score.Location = new System.Drawing.Point(112, 20);
-            this.lblPlayer1Score.Name = "lblPlayer1Score";
-            this.lblPlayer1Score.Size = new System.Drawing.Size(13, 13);
-            this.lblPlayer1Score.TabIndex = 3;
-            this.lblPlayer1Score.Text = "0";
+            this.lblPlayerXScore.AutoSize = true;
+            this.lblPlayerXScore.Location = new System.Drawing.Point(112, 20);
+            this.lblPlayerXScore.Name = "lblPlayerXScore";
+            this.lblPlayerXScore.Size = new System.Drawing.Size(13, 13);
+            this.lblPlayerXScore.TabIndex = 3;
+            this.lblPlayerXScore.Text = "0";
             // 
             // lblTies
             // 
@@ -213,23 +213,23 @@
             this.lblTies.TabIndex = 2;
             this.lblTies.Text = "Ties:";
             // 
-            // lblPlayer2
+            // lblPlayerO
             // 
-            this.lblPlayer2.AutoSize = true;
-            this.lblPlayer2.Location = new System.Drawing.Point(30, 46);
-            this.lblPlayer2.Name = "lblPlayer2";
-            this.lblPlayer2.Size = new System.Drawing.Size(75, 13);
-            this.lblPlayer2.TabIndex = 1;
-            this.lblPlayer2.Text = "Player 2 Wins:";
+            this.lblPlayerO.AutoSize = true;
+            this.lblPlayerO.Location = new System.Drawing.Point(30, 46);
+            this.lblPlayerO.Name = "lblPlayerO";
+            this.lblPlayerO.Size = new System.Drawing.Size(77, 13);
+            this.lblPlayerO.TabIndex = 1;
+            this.lblPlayerO.Text = "Player O Wins:";
             // 
-            // lblPlayer1
+            // lblPlayerX
             // 
-            this.lblPlayer1.AutoSize = true;
-            this.lblPlayer1.Location = new System.Drawing.Point(30, 20);
-            this.lblPlayer1.Name = "lblPlayer1";
-            this.lblPlayer1.Size = new System.Drawing.Size(75, 13);
-            this.lblPlayer1.TabIndex = 0;
-            this.lblPlayer1.Text = "Player 1 Wins:";
+            this.lblPlayerX.AutoSize = true;
+            this.lblPlayerX.Location = new System.Drawing.Point(30, 20);
+            this.lblPlayerX.Name = "lblPlayerX";
+            this.lblPlayerX.Size = new System.Drawing.Size(76, 13);
+            this.lblPlayerX.TabIndex = 0;
+            this.lblPlayerX.Text = "Player X Wins:";
             // 
             // gbStatus
             // 
@@ -287,21 +287,21 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btn9;
-        private System.Windows.Forms.Button btn8;
-        private System.Windows.Forms.Button btn7;
-        private System.Windows.Forms.Button btn6;
-        private System.Windows.Forms.Button btn5;
-        private System.Windows.Forms.Button btn4;
-        private System.Windows.Forms.Button btn3;
-        private System.Windows.Forms.Button btn2;
-        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btn22;
+        private System.Windows.Forms.Button btn21;
+        private System.Windows.Forms.Button btn20;
+        private System.Windows.Forms.Button btn12;
+        private System.Windows.Forms.Button btn11;
+        private System.Windows.Forms.Button btn10;
+        private System.Windows.Forms.Button btn02;
+        private System.Windows.Forms.Button btn01;
+        private System.Windows.Forms.Button btn00;
         private System.Windows.Forms.Label lblTiesScore;
-        private System.Windows.Forms.Label lblPlayer2Score;
-        private System.Windows.Forms.Label lblPlayer1Score;
+        private System.Windows.Forms.Label lblPlayerOScore;
+        private System.Windows.Forms.Label lblPlayerXScore;
         private System.Windows.Forms.Label lblTies;
-        private System.Windows.Forms.Label lblPlayer2;
-        private System.Windows.Forms.Label lblPlayer1;
+        private System.Windows.Forms.Label lblPlayerO;
+        private System.Windows.Forms.Label lblPlayerX;
         private System.Windows.Forms.GroupBox gbStatus;
         private System.Windows.Forms.Label lblGameStatus;
         private System.Windows.Forms.Button btnStartGame;
