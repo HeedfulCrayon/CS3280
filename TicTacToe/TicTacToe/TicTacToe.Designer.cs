@@ -73,6 +73,7 @@
             // btn22
             // 
             this.btn22.Enabled = false;
+            this.btn22.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn22.Location = new System.Drawing.Point(188, 172);
             this.btn22.Name = "btn22";
             this.btn22.Size = new System.Drawing.Size(88, 80);
@@ -83,6 +84,7 @@
             // btn21
             // 
             this.btn21.Enabled = false;
+            this.btn21.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn21.Location = new System.Drawing.Point(94, 172);
             this.btn21.Name = "btn21";
             this.btn21.Size = new System.Drawing.Size(88, 80);
@@ -93,6 +95,7 @@
             // btn20
             // 
             this.btn20.Enabled = false;
+            this.btn20.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn20.Location = new System.Drawing.Point(0, 172);
             this.btn20.Name = "btn20";
             this.btn20.Size = new System.Drawing.Size(88, 80);
@@ -103,6 +106,7 @@
             // btn12
             // 
             this.btn12.Enabled = false;
+            this.btn12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn12.Location = new System.Drawing.Point(189, 86);
             this.btn12.Name = "btn12";
             this.btn12.Size = new System.Drawing.Size(88, 80);
@@ -113,6 +117,7 @@
             // btn11
             // 
             this.btn11.Enabled = false;
+            this.btn11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn11.Location = new System.Drawing.Point(94, 86);
             this.btn11.Name = "btn11";
             this.btn11.Size = new System.Drawing.Size(88, 80);
@@ -123,6 +128,7 @@
             // btn10
             // 
             this.btn10.Enabled = false;
+            this.btn10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn10.Location = new System.Drawing.Point(0, 86);
             this.btn10.Name = "btn10";
             this.btn10.Size = new System.Drawing.Size(88, 80);
@@ -133,6 +139,7 @@
             // btn02
             // 
             this.btn02.Enabled = false;
+            this.btn02.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn02.Location = new System.Drawing.Point(188, 0);
             this.btn02.Name = "btn02";
             this.btn02.Size = new System.Drawing.Size(88, 80);
@@ -143,6 +150,7 @@
             // btn01
             // 
             this.btn01.Enabled = false;
+            this.btn01.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn01.Location = new System.Drawing.Point(94, 0);
             this.btn01.Name = "btn01";
             this.btn01.Size = new System.Drawing.Size(88, 80);
@@ -154,6 +162,7 @@
             // 
             this.btn00.BackColor = System.Drawing.Color.Gainsboro;
             this.btn00.Enabled = false;
+            this.btn00.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn00.Location = new System.Drawing.Point(0, 0);
             this.btn00.Name = "btn00";
             this.btn00.Size = new System.Drawing.Size(88, 80);
@@ -248,9 +257,9 @@
             this.lblGameStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGameStatus.Location = new System.Drawing.Point(6, 16);
             this.lblGameStatus.Name = "lblGameStatus";
-            this.lblGameStatus.Size = new System.Drawing.Size(95, 17);
+            this.lblGameStatus.Size = new System.Drawing.Size(145, 17);
             this.lblGameStatus.TabIndex = 0;
-            this.lblGameStatus.Text = "Player 1 Wins";
+            this.lblGameStatus.Text = "Game has not started";
             // 
             // btnStartGame
             // 
@@ -275,6 +284,7 @@
             this.Controls.Add(this.gbGameStats);
             this.Controls.Add(this.panel1);
             this.Name = "frmTicTacToe";
+            this.ShowIcon = false;
             this.Text = "Tic Tac Toe";
             this.panel1.ResumeLayout(false);
             this.gbGameStats.ResumeLayout(false);
