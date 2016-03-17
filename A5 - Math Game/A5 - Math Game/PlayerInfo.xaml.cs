@@ -19,9 +19,50 @@ namespace A5___Math_Game
     /// </summary>
     public partial class PlayerInfo : Window
     {
-        public PlayerInfo()
+        public PlayerInfo(MainMenu wSender)
         {
             InitializeComponent();
+            wParent = wSender;
+            tbAge.KeyDown += new KeyEventHandler(Age_KeyDown);
+            tbFName.KeyDown += new KeyEventHandler(Name_KeyDown);
+            tbLName.KeyDown += new KeyEventHandler(Name_KeyDown);
+        }
+
+        private MainMenu wParent;
+
+        private void btnSave_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+            wParent.Show();
+        }
+
+        /// <summary>
+        /// Age field event handler.  Determines if the key pressed is a number
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e">Key Pressed</param>
+        void Age_KeyDown(object sender, KeyEventArgs e)
+        {
+            if ((e.Key >= Key.D0 && e.Key <= Key.D9) || (e.Key >= Key.NumPad0 && e.Key <= Key.NumPad9) || e.Key == Key.Tab)
+            {
+                // Key is printed on screen
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        void Name_KeyDown(object sender, KeyEventArgs e)
+        {
+            if ((e.Key >= Key.A && e.Key <= Key.Z) || e.Key == Key.Tab)
+            {
+                // Key is printed on screen
+            }
+            else
+            {
+                e.Handled = true;
+            }
         }
     }
 }

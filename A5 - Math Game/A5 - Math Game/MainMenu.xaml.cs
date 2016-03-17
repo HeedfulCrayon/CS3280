@@ -24,5 +24,12 @@ namespace A5___Math_Game
         {
             InitializeComponent();
         }
+
+        private void btnCreatePlayer_Click(object sender, RoutedEventArgs e)
+        {
+            PlayerInfo newPlayer = new PlayerInfo(this);
+            this.Hide();
+            newPlayer.Show();
+        }
     }
 }
