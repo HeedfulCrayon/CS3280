@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:A5___Math_Game"
         mc:Ignorable="d"
-        Title="PlayerInfo" Height="205.844" Width="300" IsHitTestVisible="True" ResizeMode="NoResize" ShowInTaskbar="False" ScrollViewer.VerticalScrollBarVisibility="Disabled" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen" IsTabStop="False">
+        Title="Player Info" Height="205.844" Width="300" IsHitTestVisible="True" ResizeMode="NoResize" ShowInTaskbar="False" ScrollViewer.VerticalScrollBarVisibility="Disabled" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen" IsTabStop="False">
     <Grid KeyboardNavigation.TabNavigation="Continue">
         <TextBox x:Name="tbFName" HorizontalAlignment="Left" Height="23" Margin="128,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsHitTestVisible="True" TabIndex="0"/>
         <Label x:Name="label" Content="First Name:" HorizontalAlignment="Left" Margin="57,17,0,0" VerticalAlignment="Top"/>

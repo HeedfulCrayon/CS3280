@@ -8,5 +8,33 @@ namespace A5___Math_Game
 {
     class clsScores
     {
+        #region Attributes
+        private const int numQuestions = 10; // Needs to be changed.  The user can end the game
+        private int numCorrect;
+        private double gameScore;
+        private TimeSpan time;
+        #endregion
+
+        #region Properties
+        public int NumCorrect
+        {
+            get
+            {
+                return numCorrect;
+            }
+        }
+
+        public TimeSpan TimeTaken
+        {
+            get { return time; }
+            set { time = value; }
+        }
+
+        public double GameScore
+        {
+            get { return gameScore; }
+        }
+        #endregion
+
     }
 }

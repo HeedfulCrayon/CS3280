@@ -25,11 +25,13 @@ namespace A5___Math_Game
             InitializeComponent();
         }
 
+        public static List<clsPlayer> Players = new List<clsPlayer>();
+
         private void btnCreatePlayer_Click(object sender, RoutedEventArgs e)
         {
-            PlayerInfo newPlayer = new PlayerInfo(this);
+            PlayerInfo newPlayerWindow = new PlayerInfo(this);
             this.Hide();
-            newPlayer.Show();
+            newPlayerWindow.Show();
         }
     }
 }

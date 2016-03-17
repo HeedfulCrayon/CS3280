@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace A5___Math_Game
 {
-    class clsPlayer
+    public class clsPlayer
     {
         #region Attributes
         private string sFName;
         private string sLName;
         private int iAge;
         private string sEmail;
+        private List<clsScores> Scores;
         #endregion
 
         #region Properties
@@ -69,6 +70,7 @@ namespace A5___Math_Game
             LName = sLName;
             Age = iAge;
             Email = sEmail;
+            Scores = new List<clsScores>();
         }
         #endregion
 
@@ -80,6 +82,8 @@ namespace A5___Math_Game
             Age = iAge;
             Email = sEmail;
         }
+
+        //public void addScore()
         #endregion
 
     }
