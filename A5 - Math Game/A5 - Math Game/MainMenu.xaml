@@ -8,8 +8,8 @@
         Title="Main Menu" Height="350" Width="525">
     <Grid>
         <Button x:Name="btnEditPlayer" Content="Edit Player Info" Margin="191,247,0,0" VerticalAlignment="Top" Width="127" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left"/>
-        <Button x:Name="btnPlayGame" Content="Play Game" Margin="199,142,0,0" VerticalAlignment="Top" Width="108" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left"/>
-        <Button x:Name="btnHighScores" Content="View High Scores" Margin="364,142,0,0" VerticalAlignment="Top" Width="108" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left"/>
+        <Button x:Name="btnPlayGame" Content="Play Game" Margin="199,142,0,0" VerticalAlignment="Top" Width="108" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Click="btnPlayGame_Click"/>
+        <Button x:Name="btnHighScores" Content="View High Scores" Margin="364,142,0,0" VerticalAlignment="Top" Width="108" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Click="btnHighScores_Click"/>
         <Button x:Name="btnCreatePlayer" Content="Create New Player" Margin="45,142,0,0" VerticalAlignment="Top" Width="127" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Click="btnCreatePlayer_Click"/>
 
     </Grid>

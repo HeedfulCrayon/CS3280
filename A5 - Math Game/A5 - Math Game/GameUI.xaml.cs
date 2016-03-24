@@ -19,9 +19,23 @@ namespace A5___Math_Game
     /// </summary>
     public partial class GameUI : Window
     {
+        private HighScores wndCopyHighScores;
+
+        public HighScores CopyHighScores
+        {
+            get { return wndCopyHighScores; }
+            set { wndCopyHighScores = value; }
+        }
+
         public GameUI()
         {
             InitializeComponent();
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            this.Hide();
+            e.Cancel = true;
         }
     }
 }

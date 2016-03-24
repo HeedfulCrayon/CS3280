@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:A5___Math_Game"
         mc:Ignorable="d"
-        Title="GameUI" Height="300" Width="300">
+        Title="GameUI" Height="298.835" Width="517.282">
     <Grid>
-        
+        <Button x:Name="btnAddGame" Content="Addition" HorizontalAlignment="Left" Margin="205,39,0,0" VerticalAlignment="Top" Width="84"/>
+        <Button x:Name="btnSubtractGame" Content="Subtraction" HorizontalAlignment="Left" Margin="205,82,0,0" VerticalAlignment="Top" Width="84"/>
+        <Button x:Name="btnMultiplication" Content="Multiplication" HorizontalAlignment="Left" Margin="205,132,0,0" VerticalAlignment="Top" Width="84"/>
+        <Button x:Name="btnDivision" Content="Division" HorizontalAlignment="Left" Margin="205,183,0,0" VerticalAlignment="Top" Width="84"/>
+
     </Grid>
 </Window>

@@ -10,6 +10,7 @@ namespace A5___Math_Game
     {
         #region Attributes
         private const int numQuestions = 10; // Needs to be changed.  The user can end the game
+        private string sName;
         private int numCorrect;
         private double gameScore;
         private TimeSpan time;
@@ -36,5 +37,9 @@ namespace A5___Math_Game
         }
         #endregion
 
+        // Example
+        //public int iScore { get; set; }
+        //public int iTime { get; set; }
+        //public string Name { get; set; }
     }
 }

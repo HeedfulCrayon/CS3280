@@ -20,18 +20,46 @@ namespace A5___Math_Game
     /// </summary>
     public partial class MainMenu : Window
     {
+        HighScores wndHighScores;
+
+        PlayerInfo wndPlayerInfo;
+
+        GameUI wndGameUI;
+        
+
         public MainMenu()
         {
             InitializeComponent();
+            Application.Current.ShutdownMode = ShutdownMode.OnMainWindowClose;
+
+            wndHighScores = new HighScores();
+            wndPlayerInfo = new PlayerInfo();
+            wndGameUI = new GameUI();
+
+            wndGameUI.CopyHighScores = wndHighScores;
         }
 
         public static List<clsPlayer> Players = new List<clsPlayer>();
 
         private void btnCreatePlayer_Click(object sender, RoutedEventArgs e)
         {
-            PlayerInfo newPlayerWindow = new PlayerInfo(this);
             this.Hide();
-            newPlayerWindow.Show();
+            wndPlayerInfo.ShowDialog();
+            this.Show();
+        }
+
+        private void btnPlayGame_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            wndGameUI.ShowDialog();
+            this.Show();
+        }
+
+        private void btnHighScores_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            wndHighScores.ShowDialog();
+            this.Show();
         }
     }
 }

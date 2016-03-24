@@ -71,9 +71,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="clsGame.cs" />
-    <Compile Include="clsPlayer.cs" />
-    <Compile Include="clsScores.cs" />
+    <Compile Include="Classes\clsGame.cs" />
+    <Compile Include="Classes\clsPlayer.cs" />
+    <Compile Include="Classes\clsPlayerObjectManager.cs" />
+    <Compile Include="Classes\clsScores.cs" />
     <Compile Include="GameUI.xaml.cs">
       <DependentUpon>GameUI.xaml</DependentUpon>
     </Compile>

@@ -19,23 +19,26 @@ namespace A5___Math_Game
     /// </summary>
     public partial class PlayerInfo : Window
     {
-        public PlayerInfo(MainMenu wSender)
+        public PlayerInfo()
         {
             InitializeComponent();
-            wParent = wSender;
             tbAge.KeyDown += new KeyEventHandler(Age_KeyDown);
             tbFName.KeyDown += new KeyEventHandler(Name_KeyDown);
             tbLName.KeyDown += new KeyEventHandler(Name_KeyDown);
         }
 
-        private MainMenu wParent;
-
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
             clsPlayer newPlayer = new clsPlayer(tbFName.Text, tbLName.Text, Convert.ToInt32(tbAge.Text), tbEmail.Text);
             MainMenu.Players.Add(newPlayer);
-            this.Close();
-            wParent.Show();
+            this.Hide();
+
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            this.Hide();
+            e.Cancel = true;
         }
 
         /// <summary>
