@@ -6,11 +6,15 @@
         xmlns:local="clr-namespace:A5___Math_Game"
         mc:Ignorable="d"
         Title="GameUI" Height="298.835" Width="517.282">
-    <Grid>
-        <Button x:Name="btnAddGame" Content="Addition" HorizontalAlignment="Left" Margin="205,39,0,0" VerticalAlignment="Top" Width="84"/>
-        <Button x:Name="btnSubtractGame" Content="Subtraction" HorizontalAlignment="Left" Margin="205,82,0,0" VerticalAlignment="Top" Width="84"/>
-        <Button x:Name="btnMultiplication" Content="Multiplication" HorizontalAlignment="Left" Margin="205,132,0,0" VerticalAlignment="Top" Width="84"/>
-        <Button x:Name="btnDivision" Content="Division" HorizontalAlignment="Left" Margin="205,183,0,0" VerticalAlignment="Top" Width="84"/>
+    <Grid x:Name="gridGame">
+        <Grid x:Name="gridGameType" Height="109" Margin="0" Width="102" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button x:Name="btnAddGame" Content="Addition" HorizontalAlignment="Center" Width="84" Margin="0,5,0,0" VerticalAlignment="Top" Click="btnGameType_Click"/>
+            <Button x:Name="btnSubtractGame" Content="Subtraction" HorizontalAlignment="Center" Width="84" Margin="0,30,0,0" VerticalAlignment="Top" Click="btnGameType_Click"/>
+            <Button x:Name="btnMultiplication" Content="Multiplication" HorizontalAlignment="Center" Width="84" Margin="0,55,0,0" VerticalAlignment="Top" Click="btnGameType_Click"/>
+            <Button x:Name="btnDivision" Content="Division" HorizontalAlignment="Center" Width="84" Margin="0,80,0,0" VerticalAlignment="Top" Click="btnGameType_Click"/>
+        </Grid>
+        <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Center" Margin="0,0,0,20" VerticalAlignment="Bottom" Width="75" Padding="1" Click="btnClose_Click"/>
+        <Label x:Name="lblQuestion" Content="" HorizontalAlignment="Left" Margin="48,25,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

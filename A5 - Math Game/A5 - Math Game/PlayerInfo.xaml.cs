@@ -29,7 +29,7 @@ namespace A5___Math_Game
 
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
-            clsPlayer newPlayer = new clsPlayer(tbFName.Text, tbLName.Text, Convert.ToInt32(tbAge.Text), tbEmail.Text);
+            clsPlayer newPlayer = new clsPlayer();//(tbFName.Text, tbLName.Text, Convert.ToInt32(tbAge.Text), tbEmail.Text);
             MainMenu.Players.Add(newPlayer);
             this.Hide();
 

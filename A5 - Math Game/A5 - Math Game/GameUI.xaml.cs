@@ -21,6 +21,8 @@ namespace A5___Math_Game
     {
         private HighScores wndCopyHighScores;
 
+        private clsGame Game;
+
         public HighScores CopyHighScores
         {
             get { return wndCopyHighScores; }
@@ -36,6 +38,23 @@ namespace A5___Math_Game
         {
             this.Hide();
             e.Cancel = true;
+        }
+
+        private void btnClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void btnGameType_Click(object sender, RoutedEventArgs e)
+        {
+            Button temp = (Button)sender;
+            Game = new clsGame(Convert.ToString(temp.Content));
+            gridGameType.Visibility = Visibility.Hidden;
+            newQuestion();
+        }
+        private void newQuestion()
+        {
+            lblQuestion.Content = Game.newQuestion();
         }
     }
 }
