@@ -32,6 +32,7 @@ namespace A5___Math_Game
         public GameUI()
         {
             InitializeComponent();
+            gridQuestion.Visibility = Visibility.Hidden;
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -50,6 +51,7 @@ namespace A5___Math_Game
             Button temp = (Button)sender;
             Game = new clsGame(Convert.ToString(temp.Content));
             gridGameType.Visibility = Visibility.Hidden;
+            gridQuestion.Visibility = Visibility.Visible;
             newQuestion();
         }
         private void newQuestion()

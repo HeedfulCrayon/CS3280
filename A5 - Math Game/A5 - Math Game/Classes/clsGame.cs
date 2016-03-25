@@ -11,6 +11,10 @@ namespace A5___Math_Game
     {
         private string type;
 
+        private Random rand1;
+        private Random rand2;
+        private int answer;
+
         public clsGame(string gameType)
         {
             switch (gameType)
@@ -28,6 +32,8 @@ namespace A5___Math_Game
                     type = "Division";
                     break;
             }
+            rand1 = new Random(25);
+            rand2 = new Random(75);
         }
 
         //public string gameType
@@ -46,7 +52,10 @@ namespace A5___Math_Game
 
        public string Addition()
         {
-            return "Addition";
+            int num1 = rand1.Next(0, 100);
+            int num2 = rand2.Next(0, 100);
+            answer = num1 + num2;
+            return num1 + " + " + num2 + " = ";
         }
 
         public string Subtraction()
@@ -62,6 +71,18 @@ namespace A5___Math_Game
         public string Division()
         {
             return "Division";
+        }
+
+        public bool checkAnswer(int userAnswer)
+        {
+            if (userAnswer == answer)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
     }
