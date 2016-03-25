@@ -6,22 +6,45 @@ using System.Threading.Tasks;
 
 namespace A5___Math_Game
 {
-    class clsScores
+    public class clsScores
     {
         #region Attributes
-        private const int numQuestions = 10; // Needs to be changed.  The user can end the game
+        private int numQuestions;
         private string sName;
         private int numCorrect;
         private double gameScore;
         private TimeSpan time;
         #endregion
 
-        #region Properties
+        public clsScores(string sName)
+        {
+            numQuestions = 0;
+            numCorrect = 0;
+            //start timer??
+        }
+
+        #region Properties\
+        public int NumQuestions
+        {
+            get
+            {
+                return numQuestions;
+            }
+            set
+            {
+                numQuestions = value;
+            }
+        }
+
         public int NumCorrect
         {
             get
             {
                 return numCorrect;
+            }
+            set
+            {
+                numCorrect = value;
             }
         }
 

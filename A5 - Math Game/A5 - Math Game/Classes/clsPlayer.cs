@@ -13,7 +13,7 @@ namespace A5___Math_Game
         public string sLName;
         public int iAge;
         public string sEmail;
-        public int iScoreIndex;
+        //public int iScoreIndex;
         #endregion
 
         //#region Properties

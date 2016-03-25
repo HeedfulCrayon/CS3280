@@ -12,8 +12,8 @@ namespace A5___Math_Game
         private string type;
 
         private Random rand1;
-        private Random rand2;
         private int answer;
+        clsScores playerScore;
 
         public clsGame(string gameType)
         {
@@ -32,8 +32,8 @@ namespace A5___Math_Game
                     type = "Division";
                     break;
             }
+            playerScore = new clsScores(MainMenu.Players[MainMenu.Players.Count -1].sFName + MainMenu.Players[MainMenu.Players.Count - 1].sLName); 
             rand1 = new Random(25);
-            rand2 = new Random(75);
         }
 
         //public string gameType
@@ -47,36 +47,61 @@ namespace A5___Math_Game
             Type t = this.GetType();
             MethodInfo method = t.GetMethod(type);
             string result = (string)method.Invoke(this, null);
+            playerScore.NumQuestions++;
             return result;
         }
 
        public string Addition()
         {
-            int num1 = rand1.Next(0, 100);
-            int num2 = rand2.Next(0, 100);
+            int num1 = rand1.Next(0, 20);
+            int num2 = rand1.Next(0, 20);
             answer = num1 + num2;
             return num1 + " + " + num2 + " = ";
         }
 
         public string Subtraction()
         {
-            return "Subtraction";
+            int num1 = rand1.Next(0, 20);
+            int num2 = rand1.Next(0, 20);
+            if (num1 > num2)
+            {
+                answer = num1 - num2;
+                return num1 + " - " + num2 + " = ";
+            }
+            else
+            {
+                answer = num2 - num1;
+                return num2 + " - " + num1 + " = ";
+            }
+            
         }
 
         public string Multiplication()
         {
-            return "Multiplication";
+            int num1 = rand1.Next(0, 10);
+            int num2 = rand1.Next(0, 10);
+            answer = num1 * num2;
+            return num1 + " X " + num2 + " = ";
         }
 
         public string Division()
         {
-            return "Division";
+            int num1 = rand1.Next(0, 20);
+            int num2 = rand1.Next(0, 20);
+            while (num2!= 0 && num1 % num2 != 0)
+            {
+                num1 = rand1.Next(0, 20);
+                num2 = rand1.Next(0, 20);
+            }
+            answer = num1 / num2;
+            return num1 + " / " + num2;
         }
 
-        public bool checkAnswer(int userAnswer)
+        public bool CheckAnswer(int userAnswer)
         {
             if (userAnswer == answer)
             {
+                playerScore.NumCorrect++;
                 return true;
             }
             else
@@ -85,5 +110,10 @@ namespace A5___Math_Game
             }
         }
 
+
+        public void EndGame()
+        {
+            MainMenu.Scores.Add(playerScore);
+        }
     }
 }

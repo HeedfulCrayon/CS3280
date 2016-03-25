@@ -40,6 +40,7 @@ namespace A5___Math_Game
         }
 
         public static List<clsPlayer> Players = new List<clsPlayer>();
+        public static List<clsScores> Scores = new List<clsScores>();
 
         private void btnCreatePlayer_Click(object sender, RoutedEventArgs e)
         {

@@ -31,6 +31,7 @@ namespace A5___Math_Game
         {
             clsPlayer newPlayer = new clsPlayer();//(tbFName.Text, tbLName.Text, Convert.ToInt32(tbAge.Text), tbEmail.Text);
             MainMenu.Players.Add(newPlayer);
+            
             this.Hide();
 
         }

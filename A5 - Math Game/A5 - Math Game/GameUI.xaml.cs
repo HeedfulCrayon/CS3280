@@ -43,6 +43,7 @@ namespace A5___Math_Game
 
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
+            Game.EndGame();
             this.Hide();
         }
 
@@ -56,7 +57,53 @@ namespace A5___Math_Game
         }
         private void newQuestion()
         {
+            txtAnswer.Text = "";
+            btnSubmit.Content = "Submit";
+            lblAnswerStatus.Visibility = Visibility.Hidden;
             lblQuestion.Content = Game.newQuestion();
+        }
+
+        private void btnSubmit_Click(object sender, RoutedEventArgs e)
+        {
+            if (lblAnswerStatus.Visibility == Visibility.Visible)
+            {
+                newQuestion();
+            }
+            else
+            {
+                if (Game.CheckAnswer(Convert.ToInt32(txtAnswer.Text)))
+                {
+                    lblAnswerStatus.Content = "Correct!";
+                    lblAnswerStatus.Foreground = new SolidColorBrush(Colors.Green);
+                }
+                else
+                {
+                    lblAnswerStatus.Content = "Wrong!";
+                    lblAnswerStatus.Foreground = new SolidColorBrush(Colors.Red);
+                }
+                lblAnswerStatus.Visibility = Visibility.Visible;
+                btnSubmit.Content = "Next>>";
+            }
+        }
+
+        private void TextBox_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                btnSubmit_Click(sender, e);
+            }
+        }
+
+        private void TextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if ((e.Key >= Key.D0 && e.Key <= Key.D9) || (e.Key >= Key.NumPad0 && e.Key <= Key.NumPad9))
+            {
+                // Prints Number
+            }
+            else
+            {
+                e.Handled = true;
+            }
         }
     }
 }
