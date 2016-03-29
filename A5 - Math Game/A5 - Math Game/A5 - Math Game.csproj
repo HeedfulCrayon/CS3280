@@ -34,9 +34,13 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Images\Pink_Candy_Cane.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -73,7 +77,6 @@
     </Compile>
     <Compile Include="Classes\clsGame.cs" />
     <Compile Include="Classes\clsPlayer.cs" />
-    <Compile Include="Classes\clsPlayerObjectManager.cs" />
     <Compile Include="Classes\clsScores.cs" />
     <Compile Include="GameUI.xaml.cs">
       <DependentUpon>GameUI.xaml</DependentUpon>
@@ -120,6 +123,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\Pink_Candy_Cane.ico" />
+    <Resource Include="Images\Angry_Ralph.jpg" />
+    <Resource Include="Images\Fix_it_Felix_Jr.jpg" />
+    <Resource Include="Images\Ralph.jpg" />
+    <Resource Include="Images\Ralph_Glitch.jpg" />
+    <Resource Include="Images\Ralph_Smash.jpg" />
+    <Content Include="Sounds\Correct.wav" />
+    <Content Include="Sounds\Wrong.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

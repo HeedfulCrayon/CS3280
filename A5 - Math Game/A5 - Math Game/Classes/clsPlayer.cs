@@ -6,85 +6,28 @@ using System.Threading.Tasks;
 
 namespace A5___Math_Game
 {
+    /// <summary>
+    /// Interaction logic for the Player Class
+    /// </summary>
     public class clsPlayer
     {
         #region Attributes
+        /// <summary>
+        /// Player First Name
+        /// </summary>
         public string sFName;
+        /// <summary>
+        /// Player Last Name
+        /// </summary>
         public string sLName;
+        /// <summary>
+        /// Player Age
+        /// </summary>
         public int iAge;
+        /// <summary>
+        /// Player Email
+        /// </summary>
         public string sEmail;
-        //public int iScoreIndex;
         #endregion
-
-        //#region Properties
-        //public string FName
-        //{
-        //    get
-        //    {
-        //        return sFName;
-        //    }
-        //    set
-        //    {
-        //        sFName = value;
-        //    }
-        //}
-        //public string LName
-        //{
-        //    get
-        //    {
-        //        return sLName;
-        //    }
-        //    set
-        //    {
-        //        sLName = value;
-        //    }
-        //}
-        //public int Age
-        //{
-        //    get
-        //    {
-        //        return iAge;
-        //    }
-        //    set
-        //    {
-        //        iAge = value;
-        //    }
-        //}
-        //public string Email
-        //{
-        //    get
-        //    {
-        //        return sEmail;
-        //    }
-        //    set
-        //    {
-        //        sEmail = value;
-        //    }
-        //}
-        //#endregion
-
-        //#region Constructors
-        //public clsPlayer(string sFName, string sLName, int iAge, string sEmail)
-        //{
-        //    FName = sFName;
-        //    LName = sLName;
-        //    Age = iAge;
-        //    Email = sEmail;
-        //    Scores = new List<clsScores>();
-        //}
-        //#endregion
-
-        //#region Methods
-        //public void editPlayer(string sFName, string sLName, int iAge, string sEmail)
-        //{
-        //    FName = sFName;
-        //    LName = sLName;
-        //    Age = iAge;
-        //    Email = sEmail;
-        //}
-
-        ////public void addScore()
-        //#endregion
-
     }
 }

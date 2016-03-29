@@ -5,20 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:A5___Math_Game"
         mc:Ignorable="d"
-        Title="GameUI" Height="298.835" Width="517.282">
+        Title="Wreck It! Ralph" Height="298.835" Width="521.924" Closing="Window_Closing" WindowStartupLocation="CenterScreen" Icon="Images/Pink_Candy_Cane.ico">
     <Grid x:Name="gridGame">
-        <Grid x:Name="gridGameType" Height="109" Margin="0" Width="102" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="123*"/>
+            <RowDefinition Height="145*"/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="gridGameType" Height="108" Margin="206,80" Width="102" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.RowSpan="2">
             <Button x:Name="btnAddGame" Content="Addition" HorizontalAlignment="Center" Width="84" Margin="0,5,0,0" VerticalAlignment="Top" Click="btnGameType_Click"/>
             <Button x:Name="btnSubtractGame" Content="Subtraction" HorizontalAlignment="Center" Width="84" Margin="0,30,0,0" VerticalAlignment="Top" Click="btnGameType_Click"/>
             <Button x:Name="btnMultiplication" Content="Multiplication" HorizontalAlignment="Center" Width="84" Margin="0,55,0,0" VerticalAlignment="Top" Click="btnGameType_Click"/>
             <Button x:Name="btnDivision" Content="Division" HorizontalAlignment="Center" Width="84" Margin="0,80,0,0" VerticalAlignment="Top" Click="btnGameType_Click"/>
         </Grid>
-        <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Center" Margin="0,0,0,20" VerticalAlignment="Bottom" Width="75" Padding="1" Click="btnClose_Click"/>
-        <Grid x:Name="gridQuestion" HorizontalAlignment="Left" Height="139" Margin="10,10,0,0" VerticalAlignment="Top" Width="247">
+        <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Center" Margin="0,0,0,20" VerticalAlignment="Bottom" Width="72" Click="btnClose_Click" IsCancel="True" Grid.Row="1"/>
+        <Grid x:Name="gridQuestion" HorizontalAlignment="Left" Height="199" Margin="10,10,0,0" VerticalAlignment="Top" Width="425" Grid.RowSpan="2">
             <Label x:Name="lblQuestion" Content="Question" HorizontalAlignment="Left" Margin="70,31,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="txtAnswer" HorizontalAlignment="Left" Height="23" Margin="128,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" KeyUp="TextBox_KeyUp" KeyDown="TextBox_KeyDown"/>
+            <TextBox x:Name="txtAnswer" HorizontalAlignment="Left" Height="23" Margin="128,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" KeyDown="TextBox_KeyDown"/>
             <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="70,62,0,0" VerticalAlignment="Top" Width="97" Click="btnSubmit_Click"/>
-            <Label x:Name="lblAnswerStatus" Content="Label" HorizontalAlignment="Left" Margin="90,0,0,0" VerticalAlignment="Top" Foreground="#FF46FF00"/>
+            <Label x:Name="lblAnswerStatus" Content="Label" HorizontalAlignment="Left" Margin="90,0,0,0" VerticalAlignment="Top" Foreground="#FF2DA400"/>
+            <Label x:Name="lblTimer" Content="" HorizontalAlignment="Left" Margin="100,87,0,0" VerticalAlignment="Top"/>
+            <Image x:Name="imgQuestion" HorizontalAlignment="Left" Height="179" Margin="195,10,0,0" VerticalAlignment="Top" Width="215" Source="Images/Ralph.jpg"/>
+        </Grid>
+        <Button x:Name="btnViewHighScores" Content="View High Scores" HorizontalAlignment="Left" Margin="393,105.292,0,0" VerticalAlignment="Top" Width="106" Click="btnViewHighScores_Click" Grid.Row="1"/>
+        <Grid x:Name="gridGameStats" HorizontalAlignment="Left" Height="204" Margin="22,10,0,0" VerticalAlignment="Top" Width="477" Grid.RowSpan="2">
+            <Label x:Name="lblCorrect" Content="" HorizontalAlignment="Right" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="#FF3E9300"/>
+            <Label x:Name="lblIncorrect" Content="" HorizontalAlignment="Right" Margin="10,36,0,0" VerticalAlignment="Top" Foreground="#FFAE0000"/>
+            <Label x:Name="lblTime" Content="" HorizontalAlignment="Right" Margin="10,62,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="label" Content="You Smashed it!" HorizontalAlignment="Left" Margin="190,10,0,0" VerticalAlignment="Top"/>
+            <Image x:Name="image" HorizontalAlignment="Left" Height="184" Margin="10,10,0,0" VerticalAlignment="Top" Width="175" Source="Images/Ralph_Smash.jpg"/>
         </Grid>
 
     </Grid>

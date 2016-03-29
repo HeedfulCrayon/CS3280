@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:A5___Math_Game"
         mc:Ignorable="d"
-        Title="Main Menu" Height="350" Width="525">
+        Title="Wreck It! Ralph Menu" Height="308.544" Width="396.553" WindowStartupLocation="CenterScreen" Icon="Images/Pink_Candy_Cane.ico">
     <Grid>
-        <Button x:Name="btnEditPlayer" Content="Edit Player Info" Margin="191,247,0,0" VerticalAlignment="Top" Width="127" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left"/>
-        <Button x:Name="btnPlayGame" Content="Play Game" Margin="199,142,0,0" VerticalAlignment="Top" Width="108" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Click="btnPlayGame_Click"/>
-        <Button x:Name="btnHighScores" Content="View High Scores" Margin="364,142,0,0" VerticalAlignment="Top" Width="108" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Click="btnHighScores_Click"/>
-        <Button x:Name="btnCreatePlayer" Content="Create New Player" Margin="45,142,0,0" VerticalAlignment="Top" Width="127" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Click="btnCreatePlayer_Click"/>
+        <Button x:Name="btnPlayGame" Content="Play Game" Margin="10,108,0,0" VerticalAlignment="Top" Width="127" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Click="btnPlayGame_Click" IsEnabled="False" Height="20"/>
+        <Button x:Name="btnHighScores" Content="View High Scores" Margin="10,141,0,0" VerticalAlignment="Top" Width="127" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Click="btnHighScores_Click" Height="20"/>
+        <Button x:Name="btnCreatePlayer" Content="Create New Player" Margin="10,73,0,0" VerticalAlignment="Top" Width="127" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Click="btnCreatePlayer_Click"/>
+        <Image x:Name="imgMenu" HorizontalAlignment="Left" Height="258" Margin="142,10,0,0" VerticalAlignment="Top" Width="237" Stretch="UniformToFill" Source="Images/Ralph_Glitch.jpg"/>
 
     </Grid>
 </Window>

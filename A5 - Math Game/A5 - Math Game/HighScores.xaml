@@ -1,12 +1,29 @@
-﻿<Window x:Class="A5___Math_Game.HighScores"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:A5___Math_Game"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="A5___Math_Game.HighScores"
         mc:Ignorable="d"
-        Title="HighScores" Height="300" Width="300">
+        Title="High Scores" Height="300" Width="361.312" Closing="Window_Closing" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" Icon="Images/Pink_Candy_Cane.ico">
     <Grid>
-        
+        <ListView x:Name="lvScores" Height="249" Margin="10,10,10,0" VerticalAlignment="Top">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" Width="165"/>
+                    <GridViewColumn Header="Correct" DisplayMemberBinding="{Binding NumCorrect}" Width="50"/>
+                    <GridViewColumn Header="Wrong" DisplayMemberBinding="{Binding NumWrong}" Width="50"/>
+                    <GridViewColumn Header="Time" Width="50">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding TimeTaken, StringFormat='{}{0:mm\\:ss}'}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
     </Grid>
 </Window>
