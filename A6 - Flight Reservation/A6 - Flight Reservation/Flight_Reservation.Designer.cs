@@ -36,34 +36,65 @@
             this.lblChoosePass = new System.Windows.Forms.Label();
             this.lblChooseFlight = new System.Windows.Forms.Label();
             this.plFlight412 = new System.Windows.Forms.Panel();
-            this.lblSeat1 = new System.Windows.Forms.Label();
-            this.lblFlightNum = new System.Windows.Forms.Label();
-            this.lblSeat2 = new System.Windows.Forms.Label();
-            this.lblSeat3 = new System.Windows.Forms.Label();
-            this.lblSeat4 = new System.Windows.Forms.Label();
-            this.lblSeat5 = new System.Windows.Forms.Label();
-            this.lblSeat6 = new System.Windows.Forms.Label();
-            this.lblSeat7 = new System.Windows.Forms.Label();
-            this.lblSeat8 = new System.Windows.Forms.Label();
-            this.lblSeat9 = new System.Windows.Forms.Label();
-            this.lblSeat10 = new System.Windows.Forms.Label();
-            this.lblSeat11 = new System.Windows.Forms.Label();
-            this.lblSeat12 = new System.Windows.Forms.Label();
-            this.lblSeat13 = new System.Windows.Forms.Label();
-            this.lblSeat14 = new System.Windows.Forms.Label();
-            this.lblSeat15 = new System.Windows.Forms.Label();
-            this.lblSeat16 = new System.Windows.Forms.Label();
-            this.lblSeat24 = new System.Windows.Forms.Label();
-            this.lblSeat23 = new System.Windows.Forms.Label();
-            this.lblSeat22 = new System.Windows.Forms.Label();
-            this.lblSeat21 = new System.Windows.Forms.Label();
-            this.lblSeat20 = new System.Windows.Forms.Label();
-            this.lblSeat19 = new System.Windows.Forms.Label();
-            this.lblSeat18 = new System.Windows.Forms.Label();
-            this.lblSeat17 = new System.Windows.Forms.Label();
             this.lblDivider = new System.Windows.Forms.Label();
+            this.lbl767Seat24 = new System.Windows.Forms.Label();
+            this.lbl767Seat23 = new System.Windows.Forms.Label();
+            this.lbl767Seat22 = new System.Windows.Forms.Label();
+            this.lbl767Seat21 = new System.Windows.Forms.Label();
+            this.lbl767Seat20 = new System.Windows.Forms.Label();
+            this.lbl767Seat19 = new System.Windows.Forms.Label();
+            this.lbl767Seat18 = new System.Windows.Forms.Label();
+            this.lbl767Seat17 = new System.Windows.Forms.Label();
+            this.lbl767Seat16 = new System.Windows.Forms.Label();
+            this.lbl767Seat15 = new System.Windows.Forms.Label();
+            this.lbl767Seat14 = new System.Windows.Forms.Label();
+            this.lbl767Seat13 = new System.Windows.Forms.Label();
+            this.lbl767Seat12 = new System.Windows.Forms.Label();
+            this.lbl767Seat11 = new System.Windows.Forms.Label();
+            this.lbl767Seat10 = new System.Windows.Forms.Label();
+            this.lbl767Seat9 = new System.Windows.Forms.Label();
+            this.lbl767Seat8 = new System.Windows.Forms.Label();
+            this.lbl767Seat7 = new System.Windows.Forms.Label();
+            this.lbl767Seat6 = new System.Windows.Forms.Label();
+            this.lbl767Seat5 = new System.Windows.Forms.Label();
+            this.lbl767Seat4 = new System.Windows.Forms.Label();
+            this.lbl767Seat3 = new System.Windows.Forms.Label();
+            this.lbl767Seat2 = new System.Windows.Forms.Label();
+            this.lbl767Seat1 = new System.Windows.Forms.Label();
+            this.lblFlight767 = new System.Windows.Forms.Label();
+            this.plFlight102 = new System.Windows.Forms.Panel();
+            this.lblFlightA380 = new System.Windows.Forms.Label();
+            this.lblA380Seat24 = new System.Windows.Forms.Label();
+            this.lblA380Seat23 = new System.Windows.Forms.Label();
+            this.lblA380Seat22 = new System.Windows.Forms.Label();
+            this.lblA380Seat21 = new System.Windows.Forms.Label();
+            this.lblA380Seat20 = new System.Windows.Forms.Label();
+            this.lblA380Seat19 = new System.Windows.Forms.Label();
+            this.lblA380Seat18 = new System.Windows.Forms.Label();
+            this.lblA380Seat17 = new System.Windows.Forms.Label();
+            this.lblA380Seat16 = new System.Windows.Forms.Label();
+            this.lblA380Seat15 = new System.Windows.Forms.Label();
+            this.lblA380Seat14 = new System.Windows.Forms.Label();
+            this.lblA380Seat13 = new System.Windows.Forms.Label();
+            this.lblA380Seat12 = new System.Windows.Forms.Label();
+            this.lblA380Seat11 = new System.Windows.Forms.Label();
+            this.lblA380Seat10 = new System.Windows.Forms.Label();
+            this.lblA380Seat9 = new System.Windows.Forms.Label();
+            this.lblA380Seat8 = new System.Windows.Forms.Label();
+            this.lblA380Seat7 = new System.Windows.Forms.Label();
+            this.lblA380Seat6 = new System.Windows.Forms.Label();
+            this.lblA380Seat5 = new System.Windows.Forms.Label();
+            this.lblA380Seat4 = new System.Windows.Forms.Label();
+            this.lblA380Seat3 = new System.Windows.Forms.Label();
+            this.lblA380Seat2 = new System.Windows.Forms.Label();
+            this.lblA380Seat1 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnAddPass = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnChangeSeat = new System.Windows.Forms.Button();
             this.gbPassengerInfo.SuspendLayout();
             this.plFlight412.SuspendLayout();
+            this.plFlight102.SuspendLayout();
             this.SuspendLayout();
             // 
             // cbFlight
@@ -80,6 +111,7 @@
             // cbPassenger
             // 
             this.cbPassenger.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbPassenger.Enabled = false;
             this.cbPassenger.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbPassenger.FormattingEnabled = true;
             this.cbPassenger.Location = new System.Drawing.Point(160, 65);
@@ -150,333 +182,36 @@
             // plFlight412
             // 
             this.plFlight412.Controls.Add(this.lblDivider);
-            this.plFlight412.Controls.Add(this.lblSeat24);
-            this.plFlight412.Controls.Add(this.lblSeat23);
-            this.plFlight412.Controls.Add(this.lblSeat22);
-            this.plFlight412.Controls.Add(this.lblSeat21);
-            this.plFlight412.Controls.Add(this.lblSeat20);
-            this.plFlight412.Controls.Add(this.lblSeat19);
-            this.plFlight412.Controls.Add(this.lblSeat18);
-            this.plFlight412.Controls.Add(this.lblSeat17);
-            this.plFlight412.Controls.Add(this.lblSeat16);
-            this.plFlight412.Controls.Add(this.lblSeat15);
-            this.plFlight412.Controls.Add(this.lblSeat14);
-            this.plFlight412.Controls.Add(this.lblSeat13);
-            this.plFlight412.Controls.Add(this.lblSeat12);
-            this.plFlight412.Controls.Add(this.lblSeat11);
-            this.plFlight412.Controls.Add(this.lblSeat10);
-            this.plFlight412.Controls.Add(this.lblSeat9);
-            this.plFlight412.Controls.Add(this.lblSeat8);
-            this.plFlight412.Controls.Add(this.lblSeat7);
-            this.plFlight412.Controls.Add(this.lblSeat6);
-            this.plFlight412.Controls.Add(this.lblSeat5);
-            this.plFlight412.Controls.Add(this.lblSeat4);
-            this.plFlight412.Controls.Add(this.lblSeat3);
-            this.plFlight412.Controls.Add(this.lblSeat2);
-            this.plFlight412.Controls.Add(this.lblSeat1);
-            this.plFlight412.Controls.Add(this.lblFlightNum);
+            this.plFlight412.Controls.Add(this.lbl767Seat24);
+            this.plFlight412.Controls.Add(this.lbl767Seat23);
+            this.plFlight412.Controls.Add(this.lbl767Seat22);
+            this.plFlight412.Controls.Add(this.lbl767Seat21);
+            this.plFlight412.Controls.Add(this.lbl767Seat20);
+            this.plFlight412.Controls.Add(this.lbl767Seat19);
+            this.plFlight412.Controls.Add(this.lbl767Seat18);
+            this.plFlight412.Controls.Add(this.lbl767Seat17);
+            this.plFlight412.Controls.Add(this.lbl767Seat16);
+            this.plFlight412.Controls.Add(this.lbl767Seat15);
+            this.plFlight412.Controls.Add(this.lbl767Seat14);
+            this.plFlight412.Controls.Add(this.lbl767Seat13);
+            this.plFlight412.Controls.Add(this.lbl767Seat12);
+            this.plFlight412.Controls.Add(this.lbl767Seat11);
+            this.plFlight412.Controls.Add(this.lbl767Seat10);
+            this.plFlight412.Controls.Add(this.lbl767Seat9);
+            this.plFlight412.Controls.Add(this.lbl767Seat8);
+            this.plFlight412.Controls.Add(this.lbl767Seat7);
+            this.plFlight412.Controls.Add(this.lbl767Seat6);
+            this.plFlight412.Controls.Add(this.lbl767Seat5);
+            this.plFlight412.Controls.Add(this.lbl767Seat4);
+            this.plFlight412.Controls.Add(this.lbl767Seat3);
+            this.plFlight412.Controls.Add(this.lbl767Seat2);
+            this.plFlight412.Controls.Add(this.lbl767Seat1);
+            this.plFlight412.Controls.Add(this.lblFlight767);
             this.plFlight412.Location = new System.Drawing.Point(30, 12);
             this.plFlight412.Name = "plFlight412";
-            this.plFlight412.Size = new System.Drawing.Size(291, 299);
+            this.plFlight412.Size = new System.Drawing.Size(279, 299);
             this.plFlight412.TabIndex = 3;
-            // 
-            // lblSeat1
-            // 
-            this.lblSeat1.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat1.ForeColor = System.Drawing.Color.White;
-            this.lblSeat1.Location = new System.Drawing.Point(24, 47);
-            this.lblSeat1.Name = "lblSeat1";
-            this.lblSeat1.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat1.TabIndex = 1;
-            this.lblSeat1.Text = "1";
-            this.lblSeat1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblFlightNum
-            // 
-            this.lblFlightNum.AutoSize = true;
-            this.lblFlightNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFlightNum.Location = new System.Drawing.Point(121, 17);
-            this.lblFlightNum.Name = "lblFlightNum";
-            this.lblFlightNum.Size = new System.Drawing.Size(39, 20);
-            this.lblFlightNum.TabIndex = 0;
-            this.lblFlightNum.Text = "767";
-            // 
-            // lblSeat2
-            // 
-            this.lblSeat2.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat2.ForeColor = System.Drawing.Color.White;
-            this.lblSeat2.Location = new System.Drawing.Point(77, 47);
-            this.lblSeat2.Name = "lblSeat2";
-            this.lblSeat2.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat2.TabIndex = 2;
-            this.lblSeat2.Text = "2";
-            this.lblSeat2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat3
-            // 
-            this.lblSeat3.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat3.ForeColor = System.Drawing.Color.White;
-            this.lblSeat3.Location = new System.Drawing.Point(166, 47);
-            this.lblSeat3.Name = "lblSeat3";
-            this.lblSeat3.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat3.TabIndex = 3;
-            this.lblSeat3.Text = "3";
-            this.lblSeat3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat4
-            // 
-            this.lblSeat4.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat4.ForeColor = System.Drawing.Color.White;
-            this.lblSeat4.Location = new System.Drawing.Point(217, 47);
-            this.lblSeat4.Name = "lblSeat4";
-            this.lblSeat4.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat4.TabIndex = 4;
-            this.lblSeat4.Text = "4";
-            this.lblSeat4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat5
-            // 
-            this.lblSeat5.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat5.ForeColor = System.Drawing.Color.White;
-            this.lblSeat5.Location = new System.Drawing.Point(24, 98);
-            this.lblSeat5.Name = "lblSeat5";
-            this.lblSeat5.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat5.TabIndex = 5;
-            this.lblSeat5.Text = "5";
-            this.lblSeat5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat6
-            // 
-            this.lblSeat6.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat6.ForeColor = System.Drawing.Color.White;
-            this.lblSeat6.Location = new System.Drawing.Point(77, 98);
-            this.lblSeat6.Name = "lblSeat6";
-            this.lblSeat6.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat6.TabIndex = 6;
-            this.lblSeat6.Text = "6";
-            this.lblSeat6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat7
-            // 
-            this.lblSeat7.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat7.ForeColor = System.Drawing.Color.White;
-            this.lblSeat7.Location = new System.Drawing.Point(166, 98);
-            this.lblSeat7.Name = "lblSeat7";
-            this.lblSeat7.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat7.TabIndex = 7;
-            this.lblSeat7.Text = "7";
-            this.lblSeat7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat8
-            // 
-            this.lblSeat8.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat8.ForeColor = System.Drawing.Color.White;
-            this.lblSeat8.Location = new System.Drawing.Point(217, 98);
-            this.lblSeat8.Name = "lblSeat8";
-            this.lblSeat8.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat8.TabIndex = 8;
-            this.lblSeat8.Text = "8";
-            this.lblSeat8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat9
-            // 
-            this.lblSeat9.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat9.ForeColor = System.Drawing.Color.White;
-            this.lblSeat9.Location = new System.Drawing.Point(24, 136);
-            this.lblSeat9.Name = "lblSeat9";
-            this.lblSeat9.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat9.TabIndex = 9;
-            this.lblSeat9.Text = "9";
-            this.lblSeat9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat10
-            // 
-            this.lblSeat10.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat10.ForeColor = System.Drawing.Color.White;
-            this.lblSeat10.Location = new System.Drawing.Point(77, 136);
-            this.lblSeat10.Name = "lblSeat10";
-            this.lblSeat10.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat10.TabIndex = 10;
-            this.lblSeat10.Text = "10";
-            this.lblSeat10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat11
-            // 
-            this.lblSeat11.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat11.ForeColor = System.Drawing.Color.White;
-            this.lblSeat11.Location = new System.Drawing.Point(166, 136);
-            this.lblSeat11.Name = "lblSeat11";
-            this.lblSeat11.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat11.TabIndex = 11;
-            this.lblSeat11.Text = "11";
-            this.lblSeat11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat12
-            // 
-            this.lblSeat12.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat12.ForeColor = System.Drawing.Color.White;
-            this.lblSeat12.Location = new System.Drawing.Point(217, 136);
-            this.lblSeat12.Name = "lblSeat12";
-            this.lblSeat12.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat12.TabIndex = 12;
-            this.lblSeat12.Text = "12";
-            this.lblSeat12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat13
-            // 
-            this.lblSeat13.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat13.ForeColor = System.Drawing.Color.White;
-            this.lblSeat13.Location = new System.Drawing.Point(24, 174);
-            this.lblSeat13.Name = "lblSeat13";
-            this.lblSeat13.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat13.TabIndex = 13;
-            this.lblSeat13.Text = "13";
-            this.lblSeat13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat14
-            // 
-            this.lblSeat14.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat14.ForeColor = System.Drawing.Color.White;
-            this.lblSeat14.Location = new System.Drawing.Point(77, 174);
-            this.lblSeat14.Name = "lblSeat14";
-            this.lblSeat14.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat14.TabIndex = 14;
-            this.lblSeat14.Text = "14";
-            this.lblSeat14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat15
-            // 
-            this.lblSeat15.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat15.ForeColor = System.Drawing.Color.White;
-            this.lblSeat15.Location = new System.Drawing.Point(166, 174);
-            this.lblSeat15.Name = "lblSeat15";
-            this.lblSeat15.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat15.TabIndex = 15;
-            this.lblSeat15.Text = "15";
-            this.lblSeat15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat16
-            // 
-            this.lblSeat16.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat16.ForeColor = System.Drawing.Color.White;
-            this.lblSeat16.Location = new System.Drawing.Point(217, 174);
-            this.lblSeat16.Name = "lblSeat16";
-            this.lblSeat16.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat16.TabIndex = 16;
-            this.lblSeat16.Text = "16";
-            this.lblSeat16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat24
-            // 
-            this.lblSeat24.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat24.ForeColor = System.Drawing.Color.White;
-            this.lblSeat24.Location = new System.Drawing.Point(217, 250);
-            this.lblSeat24.Name = "lblSeat24";
-            this.lblSeat24.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat24.TabIndex = 24;
-            this.lblSeat24.Text = "24";
-            this.lblSeat24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat23
-            // 
-            this.lblSeat23.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat23.ForeColor = System.Drawing.Color.White;
-            this.lblSeat23.Location = new System.Drawing.Point(166, 250);
-            this.lblSeat23.Name = "lblSeat23";
-            this.lblSeat23.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat23.TabIndex = 23;
-            this.lblSeat23.Text = "23";
-            this.lblSeat23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat22
-            // 
-            this.lblSeat22.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat22.ForeColor = System.Drawing.Color.White;
-            this.lblSeat22.Location = new System.Drawing.Point(77, 250);
-            this.lblSeat22.Name = "lblSeat22";
-            this.lblSeat22.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat22.TabIndex = 22;
-            this.lblSeat22.Text = "22";
-            this.lblSeat22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat21
-            // 
-            this.lblSeat21.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat21.ForeColor = System.Drawing.Color.White;
-            this.lblSeat21.Location = new System.Drawing.Point(24, 250);
-            this.lblSeat21.Name = "lblSeat21";
-            this.lblSeat21.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat21.TabIndex = 21;
-            this.lblSeat21.Text = "21";
-            this.lblSeat21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat20
-            // 
-            this.lblSeat20.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat20.ForeColor = System.Drawing.Color.White;
-            this.lblSeat20.Location = new System.Drawing.Point(217, 212);
-            this.lblSeat20.Name = "lblSeat20";
-            this.lblSeat20.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat20.TabIndex = 20;
-            this.lblSeat20.Text = "20";
-            this.lblSeat20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat19
-            // 
-            this.lblSeat19.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat19.ForeColor = System.Drawing.Color.White;
-            this.lblSeat19.Location = new System.Drawing.Point(166, 212);
-            this.lblSeat19.Name = "lblSeat19";
-            this.lblSeat19.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat19.TabIndex = 19;
-            this.lblSeat19.Text = "19";
-            this.lblSeat19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat18
-            // 
-            this.lblSeat18.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat18.ForeColor = System.Drawing.Color.White;
-            this.lblSeat18.Location = new System.Drawing.Point(77, 212);
-            this.lblSeat18.Name = "lblSeat18";
-            this.lblSeat18.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat18.TabIndex = 18;
-            this.lblSeat18.Text = "18";
-            this.lblSeat18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSeat17
-            // 
-            this.lblSeat17.BackColor = System.Drawing.Color.Blue;
-            this.lblSeat17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeat17.ForeColor = System.Drawing.Color.White;
-            this.lblSeat17.Location = new System.Drawing.Point(24, 212);
-            this.lblSeat17.Name = "lblSeat17";
-            this.lblSeat17.Size = new System.Drawing.Size(33, 29);
-            this.lblSeat17.TabIndex = 17;
-            this.lblSeat17.Text = "17";
-            this.lblSeat17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.plFlight412.Visible = false;
             // 
             // lblDivider
             // 
@@ -487,11 +222,689 @@
             this.lblDivider.Size = new System.Drawing.Size(226, 10);
             this.lblDivider.TabIndex = 25;
             // 
+            // lbl767Seat24
+            // 
+            this.lbl767Seat24.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat24.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat24.Location = new System.Drawing.Point(217, 250);
+            this.lbl767Seat24.Name = "lbl767Seat24";
+            this.lbl767Seat24.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat24.TabIndex = 24;
+            this.lbl767Seat24.Text = "24";
+            this.lbl767Seat24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat23
+            // 
+            this.lbl767Seat23.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat23.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat23.Location = new System.Drawing.Point(166, 250);
+            this.lbl767Seat23.Name = "lbl767Seat23";
+            this.lbl767Seat23.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat23.TabIndex = 23;
+            this.lbl767Seat23.Text = "23";
+            this.lbl767Seat23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat22
+            // 
+            this.lbl767Seat22.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat22.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat22.Location = new System.Drawing.Point(77, 250);
+            this.lbl767Seat22.Name = "lbl767Seat22";
+            this.lbl767Seat22.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat22.TabIndex = 22;
+            this.lbl767Seat22.Text = "22";
+            this.lbl767Seat22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat21
+            // 
+            this.lbl767Seat21.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat21.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat21.Location = new System.Drawing.Point(24, 250);
+            this.lbl767Seat21.Name = "lbl767Seat21";
+            this.lbl767Seat21.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat21.TabIndex = 21;
+            this.lbl767Seat21.Text = "21";
+            this.lbl767Seat21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat20
+            // 
+            this.lbl767Seat20.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat20.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat20.Location = new System.Drawing.Point(217, 212);
+            this.lbl767Seat20.Name = "lbl767Seat20";
+            this.lbl767Seat20.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat20.TabIndex = 20;
+            this.lbl767Seat20.Text = "20";
+            this.lbl767Seat20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat19
+            // 
+            this.lbl767Seat19.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat19.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat19.Location = new System.Drawing.Point(166, 212);
+            this.lbl767Seat19.Name = "lbl767Seat19";
+            this.lbl767Seat19.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat19.TabIndex = 19;
+            this.lbl767Seat19.Text = "19";
+            this.lbl767Seat19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat18
+            // 
+            this.lbl767Seat18.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat18.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat18.Location = new System.Drawing.Point(77, 212);
+            this.lbl767Seat18.Name = "lbl767Seat18";
+            this.lbl767Seat18.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat18.TabIndex = 18;
+            this.lbl767Seat18.Text = "18";
+            this.lbl767Seat18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat17
+            // 
+            this.lbl767Seat17.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat17.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat17.Location = new System.Drawing.Point(24, 212);
+            this.lbl767Seat17.Name = "lbl767Seat17";
+            this.lbl767Seat17.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat17.TabIndex = 17;
+            this.lbl767Seat17.Text = "17";
+            this.lbl767Seat17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat16
+            // 
+            this.lbl767Seat16.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat16.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat16.Location = new System.Drawing.Point(217, 174);
+            this.lbl767Seat16.Name = "lbl767Seat16";
+            this.lbl767Seat16.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat16.TabIndex = 16;
+            this.lbl767Seat16.Text = "16";
+            this.lbl767Seat16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat15
+            // 
+            this.lbl767Seat15.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat15.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat15.Location = new System.Drawing.Point(166, 174);
+            this.lbl767Seat15.Name = "lbl767Seat15";
+            this.lbl767Seat15.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat15.TabIndex = 15;
+            this.lbl767Seat15.Text = "15";
+            this.lbl767Seat15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat14
+            // 
+            this.lbl767Seat14.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat14.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat14.Location = new System.Drawing.Point(77, 174);
+            this.lbl767Seat14.Name = "lbl767Seat14";
+            this.lbl767Seat14.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat14.TabIndex = 14;
+            this.lbl767Seat14.Text = "14";
+            this.lbl767Seat14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat13
+            // 
+            this.lbl767Seat13.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat13.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat13.Location = new System.Drawing.Point(24, 174);
+            this.lbl767Seat13.Name = "lbl767Seat13";
+            this.lbl767Seat13.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat13.TabIndex = 13;
+            this.lbl767Seat13.Text = "13";
+            this.lbl767Seat13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat12
+            // 
+            this.lbl767Seat12.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat12.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat12.Location = new System.Drawing.Point(217, 136);
+            this.lbl767Seat12.Name = "lbl767Seat12";
+            this.lbl767Seat12.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat12.TabIndex = 12;
+            this.lbl767Seat12.Text = "12";
+            this.lbl767Seat12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat11
+            // 
+            this.lbl767Seat11.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat11.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat11.Location = new System.Drawing.Point(166, 136);
+            this.lbl767Seat11.Name = "lbl767Seat11";
+            this.lbl767Seat11.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat11.TabIndex = 11;
+            this.lbl767Seat11.Text = "11";
+            this.lbl767Seat11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat10
+            // 
+            this.lbl767Seat10.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat10.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat10.Location = new System.Drawing.Point(77, 136);
+            this.lbl767Seat10.Name = "lbl767Seat10";
+            this.lbl767Seat10.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat10.TabIndex = 10;
+            this.lbl767Seat10.Text = "10";
+            this.lbl767Seat10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat9
+            // 
+            this.lbl767Seat9.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat9.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat9.Location = new System.Drawing.Point(24, 136);
+            this.lbl767Seat9.Name = "lbl767Seat9";
+            this.lbl767Seat9.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat9.TabIndex = 9;
+            this.lbl767Seat9.Text = "9";
+            this.lbl767Seat9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat8
+            // 
+            this.lbl767Seat8.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat8.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat8.Location = new System.Drawing.Point(217, 98);
+            this.lbl767Seat8.Name = "lbl767Seat8";
+            this.lbl767Seat8.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat8.TabIndex = 8;
+            this.lbl767Seat8.Text = "8";
+            this.lbl767Seat8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat7
+            // 
+            this.lbl767Seat7.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat7.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat7.Location = new System.Drawing.Point(166, 98);
+            this.lbl767Seat7.Name = "lbl767Seat7";
+            this.lbl767Seat7.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat7.TabIndex = 7;
+            this.lbl767Seat7.Text = "7";
+            this.lbl767Seat7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat6
+            // 
+            this.lbl767Seat6.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat6.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat6.Location = new System.Drawing.Point(77, 98);
+            this.lbl767Seat6.Name = "lbl767Seat6";
+            this.lbl767Seat6.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat6.TabIndex = 6;
+            this.lbl767Seat6.Text = "6";
+            this.lbl767Seat6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat5
+            // 
+            this.lbl767Seat5.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat5.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat5.Location = new System.Drawing.Point(24, 98);
+            this.lbl767Seat5.Name = "lbl767Seat5";
+            this.lbl767Seat5.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat5.TabIndex = 5;
+            this.lbl767Seat5.Text = "5";
+            this.lbl767Seat5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat4
+            // 
+            this.lbl767Seat4.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat4.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat4.Location = new System.Drawing.Point(217, 47);
+            this.lbl767Seat4.Name = "lbl767Seat4";
+            this.lbl767Seat4.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat4.TabIndex = 4;
+            this.lbl767Seat4.Text = "4";
+            this.lbl767Seat4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat3
+            // 
+            this.lbl767Seat3.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat3.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat3.Location = new System.Drawing.Point(166, 47);
+            this.lbl767Seat3.Name = "lbl767Seat3";
+            this.lbl767Seat3.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat3.TabIndex = 3;
+            this.lbl767Seat3.Text = "3";
+            this.lbl767Seat3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat2
+            // 
+            this.lbl767Seat2.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat2.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat2.Location = new System.Drawing.Point(77, 47);
+            this.lbl767Seat2.Name = "lbl767Seat2";
+            this.lbl767Seat2.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat2.TabIndex = 2;
+            this.lbl767Seat2.Text = "2";
+            this.lbl767Seat2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl767Seat1
+            // 
+            this.lbl767Seat1.BackColor = System.Drawing.Color.Blue;
+            this.lbl767Seat1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl767Seat1.ForeColor = System.Drawing.Color.White;
+            this.lbl767Seat1.Location = new System.Drawing.Point(24, 47);
+            this.lbl767Seat1.Name = "lbl767Seat1";
+            this.lbl767Seat1.Size = new System.Drawing.Size(33, 29);
+            this.lbl767Seat1.TabIndex = 1;
+            this.lbl767Seat1.Text = "1";
+            this.lbl767Seat1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblFlight767
+            // 
+            this.lblFlight767.AutoSize = true;
+            this.lblFlight767.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFlight767.Location = new System.Drawing.Point(121, 17);
+            this.lblFlight767.Name = "lblFlight767";
+            this.lblFlight767.Size = new System.Drawing.Size(39, 20);
+            this.lblFlight767.TabIndex = 0;
+            this.lblFlight767.Text = "767";
+            // 
+            // plFlight102
+            // 
+            this.plFlight102.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.plFlight102.Controls.Add(this.label1);
+            this.plFlight102.Controls.Add(this.lblA380Seat24);
+            this.plFlight102.Controls.Add(this.lblA380Seat23);
+            this.plFlight102.Controls.Add(this.lblA380Seat22);
+            this.plFlight102.Controls.Add(this.lblA380Seat21);
+            this.plFlight102.Controls.Add(this.lblA380Seat20);
+            this.plFlight102.Controls.Add(this.lblA380Seat19);
+            this.plFlight102.Controls.Add(this.lblA380Seat18);
+            this.plFlight102.Controls.Add(this.lblA380Seat17);
+            this.plFlight102.Controls.Add(this.lblA380Seat16);
+            this.plFlight102.Controls.Add(this.lblA380Seat15);
+            this.plFlight102.Controls.Add(this.lblA380Seat14);
+            this.plFlight102.Controls.Add(this.lblA380Seat13);
+            this.plFlight102.Controls.Add(this.lblA380Seat12);
+            this.plFlight102.Controls.Add(this.lblA380Seat11);
+            this.plFlight102.Controls.Add(this.lblA380Seat10);
+            this.plFlight102.Controls.Add(this.lblA380Seat9);
+            this.plFlight102.Controls.Add(this.lblA380Seat8);
+            this.plFlight102.Controls.Add(this.lblA380Seat7);
+            this.plFlight102.Controls.Add(this.lblA380Seat6);
+            this.plFlight102.Controls.Add(this.lblA380Seat5);
+            this.plFlight102.Controls.Add(this.lblA380Seat4);
+            this.plFlight102.Controls.Add(this.lblA380Seat3);
+            this.plFlight102.Controls.Add(this.lblA380Seat2);
+            this.plFlight102.Controls.Add(this.lblA380Seat1);
+            this.plFlight102.Controls.Add(this.lblFlightA380);
+            this.plFlight102.Location = new System.Drawing.Point(30, 12);
+            this.plFlight102.Name = "plFlight102";
+            this.plFlight102.Size = new System.Drawing.Size(279, 299);
+            this.plFlight102.TabIndex = 26;
+            this.plFlight102.Visible = false;
+            // 
+            // lblFlightA380
+            // 
+            this.lblFlightA380.AutoSize = true;
+            this.lblFlightA380.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFlightA380.Location = new System.Drawing.Point(109, 17);
+            this.lblFlightA380.Name = "lblFlightA380";
+            this.lblFlightA380.Size = new System.Drawing.Size(51, 20);
+            this.lblFlightA380.TabIndex = 0;
+            this.lblFlightA380.Text = "A380";
+            // 
+            // lblA380Seat24
+            // 
+            this.lblA380Seat24.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat24.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat24.Location = new System.Drawing.Point(217, 259);
+            this.lblA380Seat24.Name = "lblA380Seat24";
+            this.lblA380Seat24.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat24.TabIndex = 48;
+            this.lblA380Seat24.Text = "24";
+            this.lblA380Seat24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat23
+            // 
+            this.lblA380Seat23.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat23.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat23.Location = new System.Drawing.Point(139, 259);
+            this.lblA380Seat23.Name = "lblA380Seat23";
+            this.lblA380Seat23.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat23.TabIndex = 47;
+            this.lblA380Seat23.Text = "23";
+            this.lblA380Seat23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat22
+            // 
+            this.lblA380Seat22.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat22.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat22.Location = new System.Drawing.Point(100, 259);
+            this.lblA380Seat22.Name = "lblA380Seat22";
+            this.lblA380Seat22.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat22.TabIndex = 46;
+            this.lblA380Seat22.Text = "22";
+            this.lblA380Seat22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat21
+            // 
+            this.lblA380Seat21.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat21.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat21.Location = new System.Drawing.Point(24, 259);
+            this.lblA380Seat21.Name = "lblA380Seat21";
+            this.lblA380Seat21.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat21.TabIndex = 45;
+            this.lblA380Seat21.Text = "21";
+            this.lblA380Seat21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat20
+            // 
+            this.lblA380Seat20.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat20.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat20.Location = new System.Drawing.Point(217, 221);
+            this.lblA380Seat20.Name = "lblA380Seat20";
+            this.lblA380Seat20.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat20.TabIndex = 44;
+            this.lblA380Seat20.Text = "20";
+            this.lblA380Seat20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat19
+            // 
+            this.lblA380Seat19.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat19.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat19.Location = new System.Drawing.Point(139, 221);
+            this.lblA380Seat19.Name = "lblA380Seat19";
+            this.lblA380Seat19.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat19.TabIndex = 43;
+            this.lblA380Seat19.Text = "19";
+            this.lblA380Seat19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat18
+            // 
+            this.lblA380Seat18.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat18.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat18.Location = new System.Drawing.Point(100, 221);
+            this.lblA380Seat18.Name = "lblA380Seat18";
+            this.lblA380Seat18.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat18.TabIndex = 42;
+            this.lblA380Seat18.Text = "18";
+            this.lblA380Seat18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat17
+            // 
+            this.lblA380Seat17.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat17.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat17.Location = new System.Drawing.Point(24, 221);
+            this.lblA380Seat17.Name = "lblA380Seat17";
+            this.lblA380Seat17.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat17.TabIndex = 41;
+            this.lblA380Seat17.Text = "17";
+            this.lblA380Seat17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat16
+            // 
+            this.lblA380Seat16.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat16.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat16.Location = new System.Drawing.Point(217, 183);
+            this.lblA380Seat16.Name = "lblA380Seat16";
+            this.lblA380Seat16.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat16.TabIndex = 40;
+            this.lblA380Seat16.Text = "16";
+            this.lblA380Seat16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat15
+            // 
+            this.lblA380Seat15.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat15.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat15.Location = new System.Drawing.Point(139, 183);
+            this.lblA380Seat15.Name = "lblA380Seat15";
+            this.lblA380Seat15.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat15.TabIndex = 39;
+            this.lblA380Seat15.Text = "15";
+            this.lblA380Seat15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat14
+            // 
+            this.lblA380Seat14.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat14.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat14.Location = new System.Drawing.Point(100, 183);
+            this.lblA380Seat14.Name = "lblA380Seat14";
+            this.lblA380Seat14.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat14.TabIndex = 38;
+            this.lblA380Seat14.Text = "14";
+            this.lblA380Seat14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat13
+            // 
+            this.lblA380Seat13.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat13.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat13.Location = new System.Drawing.Point(24, 183);
+            this.lblA380Seat13.Name = "lblA380Seat13";
+            this.lblA380Seat13.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat13.TabIndex = 37;
+            this.lblA380Seat13.Text = "13";
+            this.lblA380Seat13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat12
+            // 
+            this.lblA380Seat12.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat12.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat12.Location = new System.Drawing.Point(217, 145);
+            this.lblA380Seat12.Name = "lblA380Seat12";
+            this.lblA380Seat12.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat12.TabIndex = 36;
+            this.lblA380Seat12.Text = "12";
+            this.lblA380Seat12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat11
+            // 
+            this.lblA380Seat11.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat11.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat11.Location = new System.Drawing.Point(139, 145);
+            this.lblA380Seat11.Name = "lblA380Seat11";
+            this.lblA380Seat11.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat11.TabIndex = 35;
+            this.lblA380Seat11.Text = "11";
+            this.lblA380Seat11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat10
+            // 
+            this.lblA380Seat10.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat10.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat10.Location = new System.Drawing.Point(100, 145);
+            this.lblA380Seat10.Name = "lblA380Seat10";
+            this.lblA380Seat10.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat10.TabIndex = 34;
+            this.lblA380Seat10.Text = "10";
+            this.lblA380Seat10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat9
+            // 
+            this.lblA380Seat9.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat9.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat9.Location = new System.Drawing.Point(24, 145);
+            this.lblA380Seat9.Name = "lblA380Seat9";
+            this.lblA380Seat9.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat9.TabIndex = 33;
+            this.lblA380Seat9.Text = "9";
+            this.lblA380Seat9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat8
+            // 
+            this.lblA380Seat8.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat8.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat8.Location = new System.Drawing.Point(217, 91);
+            this.lblA380Seat8.Name = "lblA380Seat8";
+            this.lblA380Seat8.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat8.TabIndex = 32;
+            this.lblA380Seat8.Text = "8";
+            this.lblA380Seat8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat7
+            // 
+            this.lblA380Seat7.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat7.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat7.Location = new System.Drawing.Point(139, 91);
+            this.lblA380Seat7.Name = "lblA380Seat7";
+            this.lblA380Seat7.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat7.TabIndex = 31;
+            this.lblA380Seat7.Text = "7";
+            this.lblA380Seat7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat6
+            // 
+            this.lblA380Seat6.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat6.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat6.Location = new System.Drawing.Point(100, 91);
+            this.lblA380Seat6.Name = "lblA380Seat6";
+            this.lblA380Seat6.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat6.TabIndex = 30;
+            this.lblA380Seat6.Text = "6";
+            this.lblA380Seat6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat5
+            // 
+            this.lblA380Seat5.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat5.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat5.Location = new System.Drawing.Point(24, 91);
+            this.lblA380Seat5.Name = "lblA380Seat5";
+            this.lblA380Seat5.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat5.TabIndex = 29;
+            this.lblA380Seat5.Text = "5";
+            this.lblA380Seat5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat4
+            // 
+            this.lblA380Seat4.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat4.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat4.Location = new System.Drawing.Point(217, 47);
+            this.lblA380Seat4.Name = "lblA380Seat4";
+            this.lblA380Seat4.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat4.TabIndex = 28;
+            this.lblA380Seat4.Text = "4";
+            this.lblA380Seat4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat3
+            // 
+            this.lblA380Seat3.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat3.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat3.Location = new System.Drawing.Point(139, 47);
+            this.lblA380Seat3.Name = "lblA380Seat3";
+            this.lblA380Seat3.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat3.TabIndex = 27;
+            this.lblA380Seat3.Text = "3";
+            this.lblA380Seat3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat2
+            // 
+            this.lblA380Seat2.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat2.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat2.Location = new System.Drawing.Point(100, 47);
+            this.lblA380Seat2.Name = "lblA380Seat2";
+            this.lblA380Seat2.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat2.TabIndex = 26;
+            this.lblA380Seat2.Text = "2";
+            this.lblA380Seat2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblA380Seat1
+            // 
+            this.lblA380Seat1.BackColor = System.Drawing.Color.Blue;
+            this.lblA380Seat1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA380Seat1.ForeColor = System.Drawing.Color.White;
+            this.lblA380Seat1.Location = new System.Drawing.Point(24, 47);
+            this.lblA380Seat1.Name = "lblA380Seat1";
+            this.lblA380Seat1.Size = new System.Drawing.Size(33, 29);
+            this.lblA380Seat1.TabIndex = 25;
+            this.lblA380Seat1.Text = "1";
+            this.lblA380Seat1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(24, 127);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(226, 12);
+            this.label1.TabIndex = 49;
+            // 
+            // btnAddPass
+            // 
+            this.btnAddPass.Enabled = false;
+            this.btnAddPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddPass.Location = new System.Drawing.Point(390, 195);
+            this.btnAddPass.Name = "btnAddPass";
+            this.btnAddPass.Size = new System.Drawing.Size(121, 35);
+            this.btnAddPass.TabIndex = 27;
+            this.btnAddPass.Text = "Add Passenger";
+            this.btnAddPass.UseVisualStyleBackColor = true;
+            this.btnAddPass.Click += new System.EventHandler(this.btnAddPass_Click);
+            // 
+            // button1
+            // 
+            this.button1.Enabled = false;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(517, 195);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(146, 35);
+            this.button1.TabIndex = 28;
+            this.button1.Text = "Delete Passenger";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btnChangeSeat
+            // 
+            this.btnChangeSeat.Enabled = false;
+            this.btnChangeSeat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChangeSeat.Location = new System.Drawing.Point(390, 155);
+            this.btnChangeSeat.Name = "btnChangeSeat";
+            this.btnChangeSeat.Size = new System.Drawing.Size(121, 35);
+            this.btnChangeSeat.TabIndex = 29;
+            this.btnChangeSeat.Text = "Change Seat";
+            this.btnChangeSeat.UseVisualStyleBackColor = true;
+            // 
             // Flight_Reservation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(675, 323);
+            this.Controls.Add(this.btnChangeSeat);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAddPass);
+            this.Controls.Add(this.plFlight102);
             this.Controls.Add(this.plFlight412);
             this.Controls.Add(this.gbPassengerInfo);
             this.Name = "Flight_Reservation";
@@ -500,6 +913,8 @@
             this.gbPassengerInfo.PerformLayout();
             this.plFlight412.ResumeLayout(false);
             this.plFlight412.PerformLayout();
+            this.plFlight102.ResumeLayout(false);
+            this.plFlight102.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -514,32 +929,62 @@
         private System.Windows.Forms.Label lblChoosePass;
         private System.Windows.Forms.Label lblChooseFlight;
         private System.Windows.Forms.Panel plFlight412;
-        private System.Windows.Forms.Label lblFlightNum;
-        private System.Windows.Forms.Label lblSeat1;
-        private System.Windows.Forms.Label lblSeat16;
-        private System.Windows.Forms.Label lblSeat15;
-        private System.Windows.Forms.Label lblSeat14;
-        private System.Windows.Forms.Label lblSeat13;
-        private System.Windows.Forms.Label lblSeat12;
-        private System.Windows.Forms.Label lblSeat11;
-        private System.Windows.Forms.Label lblSeat10;
-        private System.Windows.Forms.Label lblSeat9;
-        private System.Windows.Forms.Label lblSeat8;
-        private System.Windows.Forms.Label lblSeat7;
-        private System.Windows.Forms.Label lblSeat6;
-        private System.Windows.Forms.Label lblSeat5;
-        private System.Windows.Forms.Label lblSeat4;
-        private System.Windows.Forms.Label lblSeat3;
-        private System.Windows.Forms.Label lblSeat2;
+        private System.Windows.Forms.Label lblFlight767;
+        private System.Windows.Forms.Label lbl767Seat1;
+        private System.Windows.Forms.Label lbl767Seat16;
+        private System.Windows.Forms.Label lbl767Seat15;
+        private System.Windows.Forms.Label lbl767Seat14;
+        private System.Windows.Forms.Label lbl767Seat13;
+        private System.Windows.Forms.Label lbl767Seat12;
+        private System.Windows.Forms.Label lbl767Seat11;
+        private System.Windows.Forms.Label lbl767Seat10;
+        private System.Windows.Forms.Label lbl767Seat9;
+        private System.Windows.Forms.Label lbl767Seat8;
+        private System.Windows.Forms.Label lbl767Seat7;
+        private System.Windows.Forms.Label lbl767Seat6;
+        private System.Windows.Forms.Label lbl767Seat5;
+        private System.Windows.Forms.Label lbl767Seat4;
+        private System.Windows.Forms.Label lbl767Seat3;
+        private System.Windows.Forms.Label lbl767Seat2;
         private System.Windows.Forms.Label lblDivider;
-        private System.Windows.Forms.Label lblSeat24;
-        private System.Windows.Forms.Label lblSeat23;
-        private System.Windows.Forms.Label lblSeat22;
-        private System.Windows.Forms.Label lblSeat21;
-        private System.Windows.Forms.Label lblSeat20;
-        private System.Windows.Forms.Label lblSeat19;
-        private System.Windows.Forms.Label lblSeat18;
-        private System.Windows.Forms.Label lblSeat17;
+        private System.Windows.Forms.Label lbl767Seat24;
+        private System.Windows.Forms.Label lbl767Seat23;
+        private System.Windows.Forms.Label lbl767Seat22;
+        private System.Windows.Forms.Label lbl767Seat21;
+        private System.Windows.Forms.Label lbl767Seat20;
+        private System.Windows.Forms.Label lbl767Seat19;
+        private System.Windows.Forms.Label lbl767Seat18;
+        private System.Windows.Forms.Label lbl767Seat17;
+        private System.Windows.Forms.Panel plFlight102;
+        private System.Windows.Forms.Label lblA380Seat24;
+        private System.Windows.Forms.Label lblA380Seat23;
+        private System.Windows.Forms.Label lblA380Seat22;
+        private System.Windows.Forms.Label lblA380Seat21;
+        private System.Windows.Forms.Label lblA380Seat20;
+        private System.Windows.Forms.Label lblA380Seat19;
+        private System.Windows.Forms.Label lblA380Seat18;
+        private System.Windows.Forms.Label lblA380Seat17;
+        private System.Windows.Forms.Label lblA380Seat16;
+        private System.Windows.Forms.Label lblA380Seat15;
+        private System.Windows.Forms.Label lblA380Seat14;
+        private System.Windows.Forms.Label lblA380Seat13;
+        private System.Windows.Forms.Label lblA380Seat12;
+        private System.Windows.Forms.Label lblA380Seat11;
+        private System.Windows.Forms.Label lblA380Seat10;
+        private System.Windows.Forms.Label lblA380Seat9;
+        private System.Windows.Forms.Label lblA380Seat8;
+        private System.Windows.Forms.Label lblA380Seat7;
+        private System.Windows.Forms.Label lblA380Seat6;
+        private System.Windows.Forms.Label lblA380Seat5;
+        private System.Windows.Forms.Label lblA380Seat4;
+        private System.Windows.Forms.Label lblA380Seat3;
+        private System.Windows.Forms.Label lblA380Seat2;
+        private System.Windows.Forms.Label lblA380Seat1;
+        private System.Windows.Forms.Label lblFlightA380;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnAddPass;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnChangeSeat;
     }
 }
 

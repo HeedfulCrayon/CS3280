@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_Passenger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Passenger.Designer.cs">
+      <DependentUpon>Add_Passenger.cs</DependentUpon>
+    </Compile>
     <Compile Include="clsDataAccess.cs" />
     <Compile Include="Flight_Reservation.cs">
       <SubType>Form</SubType>
@@ -55,6 +61,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Add_Passenger.resx">
+      <DependentUpon>Add_Passenger.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Flight_Reservation.resx">
       <DependentUpon>Flight_Reservation.cs</DependentUpon>
     </EmbeddedResource>
@@ -81,7 +90,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="lblSeatTemplate.txt" />
     <Content Include="ReservationSystem.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
